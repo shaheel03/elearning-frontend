@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Elearn Frontend (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend for the **Elearn Portal**, built using **React.js**. It provides a clean UI to display courses and their lessons.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Setup Instructions
 
-### `npm start`
+### **1️⃣ Prerequisites**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ensure you have the following installed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Node.js (LTS Version)** → [Download Here](https://nodejs.org/)
+- **npm** (comes with Node.js) or **yarn** → [Download Here](https://classic.yarnpkg.com/lang/en/docs/install/)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **2️⃣ Clone the Repository**
 
-### `npm run build`
+```sh
+git clone https://github.com/your-repo/elearn-frontend.git
+cd elearn-frontend
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **3️⃣ Install Dependencies**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+npm install  # or yarn install
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **4️⃣ Configure API Endpoint**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Find and update the API URL in `AddNewCourse.js` and `Home.js`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **5️⃣ Run the Application**
 
-## Learn More
+```sh
+npm start  # or yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The app will run at **[http://localhost:3000](http://localhost:3000)** 🎉
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```plaintext
+📂 elearn-frontend
+ ├── 📂 src
+ │   ├── 📂 components  # Reusable components
+ │   ├── 📂 pages       # Pages (Home, About, Contact, etc.)
+ │   ├── 📂 services    # API calls
+ │   ├── 📂 assets      # Images, logos, styles
+ │   ├── App.js        # Main App component
+ │   ├── index.js      # Entry point
+ ├── 📄 .env           # API configuration
+ ├── 📄 package.json   # Dependencies and scripts
+ ├── 📄 README.md      # Project documentation
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Next Steps
 
-### Making a Progressive Web App
+✅ Add authentication (if needed).\
+✅ Enhance UI with animations.\
+✅ Deploy on Kubernetes with CI/CD.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Let’s build something awesome! 🚀
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
