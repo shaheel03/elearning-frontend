@@ -38,14 +38,11 @@ Find and update the API URL in `AddNewCourse.js` and `Home.js`.
 
 ---
 
-### **5️⃣ Run the Application**
+### **5️⃣ Run Build**
 
 ```sh
-npm start  # or yarn start
+npm run build
 ```
-
-The app will run at **[http://localhost:3000](http://localhost:3000)** 🎉
-
 ---
 
 ## 📁 Project Structure
@@ -63,14 +60,4 @@ The app will run at **[http://localhost:3000](http://localhost:3000)** 🎉
  ├── 📄 package.json   # Dependencies and scripts
  ├── 📄 README.md      # Project documentation
 ```
-
----
-
-## 🚀 Next Steps
-
-✅ Add authentication (if needed).\
-✅ Enhance UI with animations.\
-✅ Deploy on Kubernetes with CI/CD.
-
-Let’s build something awesome! 🚀
 
